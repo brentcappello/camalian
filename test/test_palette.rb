@@ -8,8 +8,7 @@ end
 
 describe Camalian::Palette do
   before do
-    @image = Camalian::load( File.join( File.dirname(__FILE__), 'assets/palette.png'))
-    @palette = @image.prominent_colors(15)
+    @palette = "#4dda15 #45c131 #41b53f #3da94d #3da84e #359169 #318578 #2d7986 #296d94 #2560a3 #2154b1 #1d48bf #193dcd #193cce #1530dc"
   end
 
   describe "palette with 15 colors extracted" do
