@@ -18,10 +18,4 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.requirements  = 'ImageMagick'
-
-  spec.add_dependency "cocaine"
-  spec.add_dependency "rmagick", "~> 2.15.4"
-  spec.add_dependency "oily_png", "~> 1.2.0"
-
 end
