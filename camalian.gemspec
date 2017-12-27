@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'camalian/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "camalian"
+  spec.name          = "camalian-palette"
   spec.version       = Camalian::VERSION
   spec.authors       = ["Nazar Hussain"]
   spec.email         = ["nazarhussain@gmail.com"]
